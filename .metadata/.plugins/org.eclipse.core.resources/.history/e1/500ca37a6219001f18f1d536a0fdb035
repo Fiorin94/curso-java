@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class Temperatura {
+	public static void main(String[] args) {
+		// (°F - 32) x 5/9 = °C
+		
+		final double ajuste = 32;
+		final double divisao = 5 / 9.0;
+		
+		double farenheit = 110;
+		double celcius = (farenheit - ajuste) * divisao;
+		
+		System.out.println(celcius);
+	}
+}
