@@ -1,0 +1,19 @@
+package fundamentos;
+
+public class Wrappers {
+	public static void main(String[] args) {
+		// Os wrappers são a versão objeto dos tipos prmitivos 
+		// Com eles é possível ver as classes que originam os tipos primitivos
+		// Sendo possível assim utilizar atributos e comportamentos com eles
+		
+		//byte
+		Byte b = 100;
+		Short s = 1000;
+		//int e long
+		Integer i = 10000;
+		Long l = 100000L;
+		
+		System.out.println(b.byteValue());
+		
+	}
+}
